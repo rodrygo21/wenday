@@ -1,0 +1,238 @@
+body {
+  font-family: "Kanit", sans-serif;
+  color: #fff;
+  background: url(../images/bg.jpg) top center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+a {
+  color: #24b7a4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #36d8c3;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Kanit", sans-serif;
+}
+
+/*Scroll bar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #24b7a4;
+  border-radius: 50px;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 996;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #24b7a4;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+#myBtn i {
+  font-size: 30px;
+  color: #fff;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#myBtn:hover {
+  background: #166e63;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header h1 {
+  font-size: 50px;
+}
+
+#header .subscribe .subscribe-form {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 25px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+}
+
+#header .subscribe .subscribe-form input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+}
+
+#header .subscribe .subscribe-form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #24b7a4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .subscribe .subscribe-form input[type="submit"]:hover {
+  background: #22ae9c;
+}
+
+#header .social-links a {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 3px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .social-links a i {
+  line-height: 0;
+}
+
+#header .social-links a:hover {
+  background: #24b7a4;
+  border-color: #24b7a4;
+}
+
+/*--------------------------------------------------------------
+# about
+--------------------------------------------------------------*/
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #24b7a4;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+#about .icon {
+  font-size: 50px;
+}
+
+/*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+#contact .address i {
+  font-size: 25px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .address h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#contact .address p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#contact .address .email:hover i,
+#contact .address .geo:hover i,
+#contact .address .phone:hover i {
+  background: #24b7a4;
+  color: #fff;
+}
+
+#contact .address {
+  border-top: 3px solid #24b7a4;
+  border-bottom: 3px solid #24b7a4;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.06);
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+#footer {
+  background: rgba(45, 62, 77, 0.4);
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px;
+}

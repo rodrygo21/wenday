@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wenday</title>
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="./bootstrap-icons-1.9.1/bootstrap-icons.css" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.0-dist/css/bootstrap.min.css"
+    />
+    <!--Css-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--header-->
+    <div id="header" class="container text-center my-5">
+      <h1>Wenday</h1>
+      <p class="fs-4">
+        We're working hard to improve our website and we'll ready to launch
+        after
+      </p>
+      <div class="subscribe">
+        <h4>Subscribe now to get the latest updates!</h4>
+        <form>
+          <div class="subscribe-form">
+            <input type="email" name="email" required /><input
+              type="submit"
+              value="Subscribe"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="social-links text-center mt-5">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <!--/header-->
+    <!--about-->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>about us</h2>
+          <p class="text-center">
+            Illo velit quae dolorem voluptate pireda notila set. <br />Corrupti
+            voluptatum tempora iste ratione deleniti corrupti nostrum ut
+          </p>
+        </div>
+
+        <div class="row mt-2 text-center">
+          <div class="col-12 col-md-4">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4><a href="">Lorem Ipsum</a></h4>
+            <p class="text-center">
+              Voluptatum deleniti atque corrupti<br />
+              quos dolores et quas molestias excepturi <br />sint occaecati
+              cupiditate non provident
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4><a href="">Dolor Sitema</a></h4>
+            <p class="text-center">
+              Minim veniam, quis nostrud exercitation<br />
+              ullamco laboris nisi ut aliquip ex<br />
+              ea commodo consequat tarad limino ata
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p class="text-center">
+              Duis aute irure dolor in reprehenderit<br />
+              in voluptate velit esse cillum dolore<br />
+              eu fugiat nulla pariatur
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/about-->
+
+    <!--contact-->
+    <section id="contact">
+      <div class="container my-5">
+        <div class="section-title">
+          <h2>contact</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="address">
+              <div class="geo">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A1711 Adam Street, New York, NY 17112003</p>
+              </div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>bekzodduschanov436@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Phone:</h4>
+                <p>+998 99 285 37 11</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="address">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="Name"
+                    />
+                    <label for="floatingInput" class="text-secondary"
+                      >Name</label
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput1"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput1" class="text-secondary"
+                      >Email address</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2">
+                <label for="name">Message</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="4"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mt-3">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--/contact-->
+
+    <!-- =======footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="text-center">
+          &copy; Copyright <span id="current-year"></span
+          ><strong><span> &nbsp; Wenday</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!--=======/footer======= -->
+
+    <!--Back To Top button-->
+    <a onclick="topFunction()" id="myBtn"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
